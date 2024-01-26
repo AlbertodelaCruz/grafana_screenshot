@@ -1,10 +1,10 @@
 ## Grafana Screenshot
 
-This app gets a graph from a Grafana instance, makes an screeshot and post it to slack.
+This app gets a graph from a Grafana instance, makes a screenshot and post it to slack.
 
 ## Configuration
 
-An `.env.example` file is included with variables needed
+An `.env.example` file is included with needed variables
 
 ```
 GRAFANA_URL "Full grafana url dashboard
