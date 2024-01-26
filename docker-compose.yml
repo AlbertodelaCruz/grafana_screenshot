@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  grafana_screenshot:
+    network_mode: host
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .env:/app/.env
